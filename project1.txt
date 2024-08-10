@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design Conference</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add some basic CSS for layout adjustments */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+    background: url('https://3.bp.blogspot.com/-MNhnUX1iyj4/WhLhtRH17TI/AAAAAAAAFgg/FXrtPh9mt-UdzCpxR7syNZzVftzJKO5PgCLcBGAs/s1600/showcase-event-conference-landing-pages.jpg') ;
+    height: 500px;
+    width: 1100px;
+    color: white;
+    position: relative;
+
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+        .stats, .content, .speakers, .program {
+            margin: 20px 0;
+        }
+        .faq-item {
+            margin-bottom: 10px;
+        }
+        /* Additional styling for better visual layout */
+        .header-buttons a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .header-buttons a:hover {
+            background: #fff;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">New Event</div>
+                <ul class="nav-links">
+                    <li><a href="#">Intro</a></li>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Speakers</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Venue</a></li>
+                    <li><a href="#">Sponsors</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="overlay">
+            <div class="container">
+                <p>July 22 - 26 in San Francisco, CA</p>
+                <h1>Web Design Conference</h1>
+                <div class="header-buttons">
+                    <a href="#" class="btn learn-more">Learn More</a>
+                    <a href="#" class="btn register">Register Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="stats container">
+            <div>
+                <img src="https://tse3.mm.bing.net/th?id=OIP.p9KtcaPnjMV1Jn1Bi_93_wHaII&pid=Api&P=0&h=180" alt="Participants">
+                <h3>650 Participants</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada.</p>
+            </div>
+            <div>
+                <img src="https://c8.alamy.com/comp/2GYGG5R/timer-logo-vector-template-2GYGG5R.jpg" alt="Programs">
+                <h3>24 Programs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada.</p>
+            </div>
+            <div>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.QyPkjU_LsqXEJYMyDh4x3wHaHa&pid=Api&P=0&h=180" alt="Speakers">
+                <h3>11 Speakers</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada.</p>
+            </div>
+        </div>
+        <div class="content container">
+            <div class="text">
+                <h2>WATCH VIDEO</h2>
+                <p>Quisque ut libero sapien. Integer tellus nisl, efficitur sed dolor at, vehicula finibus massa. Sed tincidunt metus sed eleifend suscipit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/your_video_id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>CREATIVE SPEAKERS</h2><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="speakers">
+            <div><img src="https://media.licdn.com/dms/image/D5603AQFx0BJdm8UvyQ/profile-displayphoto-shrink_200_200/0/1715976694939?e=2147483647&v=beta&t=36biDNLwK06IxhntxQJtqlhdWBLn-UybQkRX15_h6po" alt="Jenny Green" height="250" width="200"><p>Jenny Green<br>UI Designer</p></div>
+            <div><img src="https://media.licdn.com/dms/image/C4E03AQF03x1zh72jaA/profile-displayphoto-shrink_200_200/0/1517573367758?e=2147483647&v=beta&t=Pat9sriQOwl8qmcE1auRbPK27WA7ey4PIQQRMsogQUE" alt="David Yoon" height="250" width="200"><p>David Yoon<br>Creative Director</p></div>
+            <div><img src="https://i.pinimg.com/236x/2e/d7/f3/2ed7f3bbec9a8a48b76c805ee329fd03.jpg" alt="Je Mary Lee" height="250" width="200"><p>Je Mary Lee<br>Web Specialist</p></div>
+            <div><img src="https://openclassrooms-student-center.github.io/bootstrap-5-EN/img/portrait.jpg" alt="Johnathan Doe" height="250" width="200"><p>Johnathan Doe<br>Frontend Dev</p></div>
+        </div>
+
+        <h1>Our Programs</h1>
+        <div class="program">
+            <img src="https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-male-5-512.png" alt="Jenny Green" width="100">
+            <span class="title">Introduction to Design</span> <br>
+            <span class="time">09:00 AM</span> <span class="room">Room 240</span> <br>
+            <span class="description">By Jenny Green</span>
+        </div>
+        <div class="program">
+            <img src="https://png.pngtree.com/png-vector/20191103/ourmid/pngtree-handsome-young-guy-avatar-cartoon-style-png-image_1947775.jpg" alt="Johnathan Mark" width="100">
+            <span class="title">Front-End Development</span> <br>
+            <span class="time">10:00 AM</span> <span class="room">Room 360</span> <br>
+            <span class="description">By Johnathan Mark</span>
+        </div>
+        <div class="program">
+            <img src="https://png.pngtree.com/png-vector/20220817/ourmid/pngtree-women-cartoon-avatar-in-flat-style-png-image_6110776.png" alt="Johnathan Doe" width="100">
+            <span class="title">Social Media Marketing</span> <br>
+            <span class="time">11:00 AM</span> <span class="room">Room 450</span> <br>
+            <span class="description">By Johnathan Doe</span>
+        </div>
+    </div>
+
+    <div id="register" class="container">
+        <h1>Register Here</h1>
+        <p>Nunc eu nibh vel augue mollis tincidunt id efficitur tortor. Sed pulvinar est sit amet tellus iaculis hendrerit.</p>
+        <form>
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+
+    <div id="faq" class="container">
+            <div id="faq" class="container">
+                <h2>Do You Have Questions?</h2>
+                <div class="faq-item">
+                    <h3>What is Responsive Design?</h3>
+                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are latest UX Developments?</h3>
+                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What things about Social Media will be discussed?</h3>
+                    <p>Lorem ipsum dolor sit amet, maecenas eget vestibulum justo imperdiet.</p>
+                </div>
+            </div>
+        
+            <div id="venue" class="container">
+                <h3>Venue</h3>
+                <p>120 Market Street, Suite 110<br>
+                   San Francisco, CA 10110<br>
+                   Tel: 010-020-0120</p>
+            </div>
+        
+            <script>
+                document.querySelectorAll('.faq-item h3').forEach(item => {
+                    item.addEventListener('click', () => {
+                        const content = item.nextElementSibling;
+                        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+                    });
+                });
+            </script>
